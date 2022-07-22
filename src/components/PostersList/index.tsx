@@ -25,8 +25,6 @@ export const PosterList = ({
   const [trailerUrl, setTrailerUrl] = useState<string>("");
 
   const handleClick = (movie: any) => {
-    console.log({ movie });
-
     if (trailerUrl) {
       setTrailerUrl("");
     } else {
